@@ -1,0 +1,157 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F5F8F6;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+/* Left Section Styling */
+.left-section {
+    width: 50%;
+}
+
+.left-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+    left: 100px;
+}
+
+.left-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    position: relative;
+    left: 100px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 100px;
+    /* background-color: white; */
+    z-index: 111;
+    /* width: 700px; */
+    /* height: 20px; */
+    top: -10px;
+}
+/* .search:hover{
+    border: 2px solid black;
+} */
+
+.search input {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* flex: 1; */
+    margin-right: 10px;
+    /* position: relative; */
+    /* left: 100px; */
+    width: 300px;
+    height: 100%;
+}
+
+.search button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF6F00;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 2px;
+    left: 140px;
+    height:54px;
+
+    /* z-index: 11; */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.candidate-info {
+    margin-top: 20px;
+   
+}
+
+.candidate-info p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.candidate-images img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+    left: 100px;
+}
+
+/* Right Section Styling */
+.right-section {
+    display: flex;
+    gap: 20px;
+}
+
+.right-section .image-box {
+    width: 300px;
+    
+}
+
+.right-section .image-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+.img1{
+    position: relative;
+    top: -5px;
+
+}
+.circle{
+    border: 40px solid orange;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: relative;
+    left: 1120px;
+    top: -300px;
+    z-index: -1;
+}
+
+.circle-green{
+    position: relative;
+    top: -580px;
+    left: -120px;
+    height: 80px;
+    width: 90px;
+}
+.line{
+    position: relative;
+    top: -385px;
+    left: -120px;
+}
+
+.curvline{
+    position: relative;
+    left: 280px;
+    top: -20px;
+}
